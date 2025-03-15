@@ -1,7 +1,11 @@
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
-This site contais examples of docs, pages and blogs and their different features.
+This site contains examples of docs, pages and blogs and their different features.
+* Docs examples you can find at `docs/`.
+* Blogs examples you can find at `blog/`.
+* Pages examples you can find at `src/pages/`.
+* Mdx(i.e react component within md files) - you can find components at `src/components/` which are used/imported in md files.
 
 ### Installation
 
