@@ -21,3 +21,11 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+piyush:
+  name: Piyush Kumar
+  title: Software Engineer
+  image_url: https://avatars.githubusercontent.com/u/13505531?v=4
+  socials:
+    linkedin: https://www.linkedin.com/in/piyush-kumar-8349794b/
+    github: https://github.com/piyushkumar13

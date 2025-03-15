@@ -1,0 +1,8 @@
+{
+  "label": "4. Custom Title Using Category Json",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Overriding sidebar dropdown title."
+  }
+}
