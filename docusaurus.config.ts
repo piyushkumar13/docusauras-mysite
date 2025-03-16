@@ -38,6 +38,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           routeBasePath: '/',
+          // breadcrumbs: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -68,6 +69,12 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    docs: {
+      sidebar: {
+        hideable: true, // you can make the entire sidebar hideable, allowing users to better focus on the content.
+        autoCollapseCategories: true // option would collapse all sibling categories when expanding one category.
+      },
+    },
     navbar: {
       title: 'My Site',
       logo: {
@@ -84,6 +91,7 @@ const config: Config = {
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/MyHelloPage', label: 'My Hello Page', position: 'left'},
         {to: '/MyHelloPageMd', label: 'My Hello Page using Markdown', position: 'left'},
+        {to: '/operators', label: 'Operators', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
